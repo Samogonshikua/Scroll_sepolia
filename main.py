@@ -23,8 +23,7 @@ def get_module():
         pointer="✅ "
     ).ask()
     if result == "exit":
-        print("\n❤️ Subscribe to me – https://t.me/sybilwave\n")
-        print("🤑 Donate me: 0x00000b0ddce0bfda4531542ad1f2f5fad7b9cde9")
+
         sys.exit()
     return result
 
@@ -42,10 +41,9 @@ def main(module):
 
 
 if __name__ == '__main__':
-    print("❤️ Subscribe to me – https://t.me/sybilwave\n")
+
 
     module = get_module()
     main(module)
 
-    print("\n❤️ Subscribe to me – https://t.me/sybilwave\n")
-    print("🤑 Donate me: 0x00000b0ddce0bfda4531542ad1f2f5fad7b9cde9")
+
